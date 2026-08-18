@@ -10,6 +10,9 @@ description = {
 	homepage = "https://github.com/lolrobbe2/premake-lls-addon",
 	license = "MIT",
 }
+dependencies = {
+	"luarocks-build-lls-addon >= 0.1.0"
+}
 build = {
 	type = "lls-addon",
 	settings = {
