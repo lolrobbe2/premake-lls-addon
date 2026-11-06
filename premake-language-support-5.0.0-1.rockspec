@@ -3,6 +3,7 @@ package = "premake-language-support"
 version = "5.0.0-1"
 source = {
 	url = "git+https://github.com/lolrobbe2/premake-lls-addon.git",
+	tag = "v5.0.0"
 }
 description = {
 	summary = "LuaCATS annotations for Premake",
