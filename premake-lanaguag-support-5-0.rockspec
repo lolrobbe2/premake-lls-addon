@@ -1,6 +1,6 @@
 rockspec_format = "3.0"
 package = "premake-language-support"
-version = "beta-8"
+version = "5.0"
 source = {
 	url = "git+https://github.com/lolrobbe2/premake-lls-addon.git",
 }

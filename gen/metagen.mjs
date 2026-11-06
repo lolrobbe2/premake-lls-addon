@@ -8,7 +8,7 @@ import DocsFetch from "./docsfetch.mjs";
  */
 function runPremake() {
     return new Promise((resolve, reject) => {
-        const premake = spawn("premake5", ["--file=gen/generate.lua"], {
+        const premake = spawn("premake5", ["--file=gen/generate.lua", "generate"], {
             stdio: "inherit"
         });
 

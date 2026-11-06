@@ -60,9 +60,15 @@ local function exportContainers()
 end
 
 -- Example: write to file
-local f = io.open("containers.json", "w")
-f:write(exportContainers())
-f:close()
 
-exportLoweredList()
+newaction {
+    trigger = "generate",
+    description = "Export Premake fields and containers to JSON",
+     execute = function()
+        local f = io.open("containers.json", "w")
+        f:write(exportContainers())
+        f:close()
 
+        exportLoweredList()
+     end
+}

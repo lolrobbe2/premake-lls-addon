@@ -4,6 +4,6 @@ Addon for premake language support
 ## building the lib files
 
 ```bash
-premake5 --file=gen/generate.lua
+premake5 --file=gen/generate.lua generate
 node gen/metagen.mjs
 ```
