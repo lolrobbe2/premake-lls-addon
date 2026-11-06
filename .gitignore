@@ -2,3 +2,4 @@ premake_fields.json
 containers.json
 premakeConfig.yml
 luarocks.exe
+/**.rock
